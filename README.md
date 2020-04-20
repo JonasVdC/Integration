@@ -27,6 +27,22 @@
 </Message>
 ```
 
+## Mapping
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<Message>
+	<Header>
+		<Sender>{Module}</Sender> //Module vanwaar het komt
+		<Timestamp>hh:mm:ss</Timestamp> //Wanneer het verzonden is
+		<Type>Create</Type> //Create, Update, Delete
+	</Header>
+	<Mapping>
+		<UUID>315685156</UUID>
+		<ID>5</ID>
+	</Mapping>
+</Message>
+```
+
 ## Event
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
